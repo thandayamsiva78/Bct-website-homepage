@@ -26,7 +26,7 @@ function Footer() {
 
                     </div>
                     <div className="pt-12">
-                        <img src="bct_logo.png" width="150" height="150" alt="bct_logo" />
+                        <img src="bct_logo.png" width={`100`} alt="bct_logo" />
                     </div>
                 </div>
                 <div className="flex gap-4 px-4">

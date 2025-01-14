@@ -96,7 +96,7 @@ function HomePage() {
                             </button>
 
                             {/* Mobile Menu */}
-                            <ul className="absolute bg-custome_green font-bold left-0 w-full h-full flex flex-col text-center cursor-pointer">
+                            <ul className="absolute bg-custome_green font-bold left-0 w-full pb-4 flex flex-col text-center cursor-pointer">
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">Home</li>
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">About Us</li>
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">Thrust Areas</li>

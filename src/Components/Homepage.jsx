@@ -96,7 +96,7 @@ function HomePage() {
                             </button>
 
                             {/* Mobile Menu */}
-                            <ul className="absolute bg-custome_green left-0 w-full h-full flex flex-col text-center font-medium cursor-pointer">
+                            <ul className="absolute bg-custome_green font-bold left-0 w-full h-full flex flex-col text-center cursor-pointer">
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">Home</li>
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">About Us</li>
                                 <li onClick={toggleMenu} className="w-full p-3 hover:bg-custome_lightGreen">Thrust Areas</li>
@@ -117,7 +117,7 @@ function HomePage() {
 
                     <section>
                         <h1 className="support text-red-500 font-bold text-center font-serif mt-4">SUPPORT</h1>
-                        <i className="support-text text-gray-500 font-serif text-center flex flex-wrap p-4">Thank you for sparing your time to browse through our various activities and projects. We welcome you to come and see our activities personally and give your service to whatever activity is close to your heart. If you have no time to spare, you are welcome to be with us in supporting us financially, in whatever measure you can.  We have 50% tax exemption facility under section 80G (5) (vi) of the Income Tax Act.
+                        <i className="support-text text-gray-600 font-serif text-center flex flex-wrap p-4">Thank you for sparing your time to browse through our various activities and projects. We welcome you to come and see our activities personally and give your service to whatever activity is close to your heart. If you have no time to spare, you are welcome to be with us in supporting us financially, in whatever measure you can.  We have 50% tax exemption facility under section 80G (5) (vi) of the Income Tax Act.
 
                             Now we can receive donations through international cards. Please click on the image link to take you to international payment gateway. Thank you for your continued patronage.</i>
                     </section>

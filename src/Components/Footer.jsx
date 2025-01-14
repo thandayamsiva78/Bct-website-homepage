@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <section className="footer  flex-wrap h-64 font-medium text-white bg-custome_green mt-16">
-                <div className="flex justify-between">
+                <div className="flex justify-between gap-4">
                     <div className="flex justify-between p-4 pt-12 gap-10">
                         <ul>
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Home</a></li>

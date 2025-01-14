@@ -5,9 +5,9 @@
 function Footer() {
     return (
         <>
-            <section className="footer  flex-wrap h-64 font-medium text-white bg-custome_green mt-16">
+            <section className="footer  flex-wrap h-64 font-medium text-white bg-custome_green mt-16 pb-20">
                 <div className="flex flex-col-reverse gap-4">
-                    <div className="flex justify-between p-4 pt-12 gap-10">
+                    <div className="flex justify-between p-4  gap-10">
                         <ul>
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Home</a></li>
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Press</a></li>
@@ -25,7 +25,7 @@ function Footer() {
                         </ul>
 
                     </div>
-                    <div className="pt-12">
+                    <div className="pt-4">
                         <img src="bct_logo.png" width={`100`} alt="bct_logo" />
                     </div>
                 </div>

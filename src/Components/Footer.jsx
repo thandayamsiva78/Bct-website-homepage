@@ -3,7 +3,6 @@
 
 
 function Footer() {
-
     return (
         <>
             <section className="footer  flex-wrap h-64 font-medium text-white bg-custome_green mt-16">

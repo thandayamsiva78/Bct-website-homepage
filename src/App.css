@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .header , .home-content , .footer{
@@ -51,3 +52,5 @@ body {
     font-size: 30px;
   }
 }
+
+

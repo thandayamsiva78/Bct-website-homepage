@@ -25,14 +25,14 @@ function HomePage() {
                         <img src="bct_logo.png" width="100" alt="bct_logo" />
                         <ul className="hidden lg:flex gap-4 items-center font-extralight  cursor-pointer">
                             <li className="hover:bg-custome_lightGreen p-2"><a href="#">Home</a></li>
-                            <li className="drop-down relative hover:bg-custome_lightGreen p-2">About Us
+                            <li className="drop-down relative hover:bg-custome_lightGreen p-2 pb-2">About Us
                                 <ul className="drop-down-list absolute left-0 bg-custome_green mt-4">
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Legacy</a></li>
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Time Line</a></li>
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">The Team</a></li>
                                 </ul>
                             </li>
-                            <li className="drop-down relative hover:bg-custome_lightGreen p-2"><a href="#">Thrust Areas</a>
+                            <li className="drop-down relative hover:bg-custome_lightGreen p-2 pb-2"><a href="#">Thrust Areas</a>
                                 <ul className="drop-down-list absolute left-0 bg-custome_green mt-4">
                                     <li className="second-menu hover:bg-custome_lightGreen px-4 py-2">Education
                                         <ul className="second-list absolute top-0 ml-[183px] mt-0 bg-custome_green">

@@ -11,7 +11,7 @@ function HomePage() {
         { logo: "volunteer_image(2).jpg", heading: "VOLUNTEER", linkImage: "donate-volounteer.png", paragraph: "Support us with your time and skills in an activity of your choosing." },
         { logo: "donate.jpg", heading: "DONATE", linkImage: "donateToBct.png", paragraph: "Make a general donation, honor your loved ones or  for a cause you care about." },
         { logo: "teacher.jpg", heading: "SUPPORT A TEACHER", linkImage: "donate-teacher.png", paragraph: "Support teachers for academic rural training in a subject of your choice." },
-        { logo: "student.jpg", heading: "SUPPORT A STUDENT", linkImage: "donate-student.png", paragraph: "Sponsor a child from a rural background to complete their education." },
+        { logo: "student.jpg", heading: "SUPPORT A STUDENT", linkImage: "donate-student.png", paragraph: "Sponsor a child from a rural background to complete their second." },
         { logo: "gift.jpg", heading: "GIFT A  SMILE", linkImage: "gifasmaile.png", paragraph: "Support us with your time and skills in an activity of your choosing.." },
         { logo: "bankImage.jpg", heading: "ONLINE TRANSFER IN INR", linkImage: "banktransfer.png", paragraph: "Make an Online Transfer in INR to BCT Account Click for Bank Details." },
         { logo: "global_giving.png", heading: "GLOBALGIVING", linkImage: "globalgiving.png ", paragraph: "Make a donation in USD using our partner GlobalGiving.." },
@@ -20,7 +20,7 @@ function HomePage() {
     return (
         <>
             <section id="homepage">
-                <header className="header bg-custome_green text-white px-4 py-1">
+                <header className="header fixed w-full top-0 bg-custome_green text-white px-4 py-1">
                     <nav className="flex gap-4 justify-between items-center h-14">
                         <img src="bct_logo.png" width="100" alt="bct_logo" />
                         <ul className="hidden lg:flex gap-4 items-center font-extralight  cursor-pointer">
@@ -34,9 +34,19 @@ function HomePage() {
                             </li>
                             <li className="drop-down relative hover:bg-custome_lightGreen p-2"><a href="#">Thrust Areas</a>
                                 <ul className="drop-down-list absolute left-0 bg-custome_green mt-4">
-                                    <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Education</a>
+                                    <li className="second-menu hover:bg-custome_lightGreen px-4 py-2">Education
+                                        <ul className="second-list absolute top-0 ml-[183px] mt-0 bg-custome_green">
+                                            <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Residential High School</a></li>
+                                            <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Tribal Primary Education</a></li>
+                                        </ul>
                                     </li>
-                                    <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Skill Developement</a></li>
+                                    <li className="second-menu hover:bg-custome_lightGreen px-4 py-2">
+                                    Skill Developement
+                                    <ul className="second-list absolute top-10 ml-[183px] bg-custome_green">
+                                            <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">ITI</a></li>
+                                            <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">SMART Centers</a></li>
+                                        </ul>
+                                    </li>
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Rehab of PWSDs</a></li>
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Agriculture</a></li>
                                     <li className="hover:bg-custome_lightGreen px-4 py-2"><a href="#">Community Organization</a></li>
@@ -75,7 +85,7 @@ function HomePage() {
                         <>
                             {/* Close Button */}
                             <button
-                                className="absolute top-5 right-4"
+                                className="absolute top-5 right-4 hover:border"
                                 onClick={toggleMenu}
                                 aria-label="Close Menu"
                             >
@@ -114,8 +124,7 @@ function HomePage() {
                     )}
                 </header>
                 <section className="home-content">
-
-                    <section>
+                    <section className="mt-24">
                         <h1 className="support text-red-500 font-bold text-center font-serif mt-4">SUPPORT</h1>
                         <i className="support-text text-gray-600 font-serif text-center flex flex-wrap p-4">Thank you for sparing your time to browse through our various activities and projects. We welcome you to come and see our activities personally and give your service to whatever activity is close to your heart. If you have no time to spare, you are welcome to be with us in supporting us financially, in whatever measure you can.  We have 50% tax exemption facility under section 80G (5) (vi) of the Income Tax Act.
 

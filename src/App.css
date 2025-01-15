@@ -15,20 +15,36 @@ body {
 
 
 
-.drop-down-list {
+.drop-down-list , .second-list{
   opacity: 0;
   transform: translateY(-10px);
   visibility: hidden;
   transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out; 
 }
 
-.drop-down:hover .drop-down-list {
+.drop-down:hover .drop-down-list ,  .second-menu:hover .second-list{
   width: 200px;
   opacity: 1;
   transform: translateY(0);
   visibility: visible; 
   
 }
+
+
+
+/* .second-list {
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out , transform 0.5s ease-in-out;
+}
+.second-menu:hover .second-list{
+  width: 200px;
+  opacity: 1;
+  transform: translate(0);
+  visibility: visible;
+} */
+
 
 .support{
   font-size: 50px;

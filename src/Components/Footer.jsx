@@ -14,7 +14,7 @@ function Footer() {
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Lolunteer</a></li>
                         </ul>
                         <ul>
-                            <li><a className="hover:text-blue-800 hover:underline" href="#">Newsletter</a></li>
+                            <li><a className="hover:text-blue-800 hover:underline" href="#">News letter</a></li>
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Gallary</a></li>
                             <li><a className="hover:text-blue-800 hover:underline" href="#">Timeline</a></li>
                         </ul>

@@ -7,7 +7,7 @@ function HomePage() {
         setIsMenuOpen((prev) => !prev);
     };
 
-    const [cards, setCards] = useState([
+    const cards = [
         { logo: "volunteer_image(2).jpg", heading: "VOLUNTEER", linkImage: "donate-volounteer.png", paragraph: "Support us with your time and skills in an activity of your choosing." },
         { logo: "donate.jpg", heading: "DONATE", linkImage: "donateToBct.png", paragraph: "Make a general donation, honor your loved ones or  for a cause you care about." },
         { logo: "teacher.jpg", heading: "SUPPORT A TEACHER", linkImage: "donate-teacher.png", paragraph: "Support teachers for academic rural training in a subject of your choice." },
@@ -15,7 +15,7 @@ function HomePage() {
         { logo: "gift.jpg", heading: "GIFT A  SMILE", linkImage: "gifasmaile.png", paragraph: "Support us with your time and skills in an activity of your choosing.." },
         { logo: "bankImage.jpg", heading: "ONLINE TRANSFER IN INR", linkImage: "banktransfer.png", paragraph: "Make an Online Transfer in INR to BCT Account Click for Bank Details." },
         { logo: "global_giving.png", heading: "GLOBALGIVING", linkImage: "globalgiving.png ", paragraph: "Make a donation in USD using our partner GlobalGiving.." },
-    ])
+    ]
 
     return (
         <>
@@ -136,12 +136,10 @@ function HomePage() {
                         <a className="cursor-pointer" href="#">
                             <img src="intl.Donations.png" width="200" height="10" alt="" />
                         </a>
-
                     </section>
-
                     <article className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-3 mt-10">
                         {cards.map((item) => (
-                            <div key={item.id} className="w-full bg-white shadow-lg hover:shadow-xl hover:border-b-2 hover:border-b-green-600 rounded-lg">
+                            <div key={item.id} className="w-full bg-white shadow-lg hover:shadow-xl rounded-lg">
                                 <img
                                     className="object-cover w-full h-48 rounded-t-lg"
                                     src={item.logo}
@@ -159,7 +157,6 @@ function HomePage() {
                         ))}
                     </article>
                 </section>
-
             </section>
         </>
     );

@@ -30,10 +30,10 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex gap-4 px-4">
-                    <a className="hover:bg-green-300 p-1" href="#"><img src="facebook.png" width="30" alt="face-book" /></a>
-                    <a className="hover:bg-green-300 p-1" href="#"><img src="instagram (1).png" width="30" alt="instagram (1)" /></a>
-                    <a className="hover:bg-green-300 p-1" href="#"><img src="twitter.png" width="30" alt="twitter" /></a>
-                    <a className="hover:bg-green-300 p-1" href="#"><img src="linkedin (1).png" width="30"  alt="linkedin (1)" /></a>
+                    <a href="#"><img src="facebook.png" width="30" alt="face-book" /></a>
+                    <a href="#"><img src="instagram (1).png" width="30" alt="instagram (1)" /></a>
+                    <a href="#"><img src="twitter.png" width="30" alt="twitter" /></a>
+                    <a href="#"><img src="linkedin (1).png" width="30"  alt="linkedin (1)" /></a>
                 </div>
             </section>
         </>
